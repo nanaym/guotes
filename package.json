@@ -1,0 +1,20 @@
+{
+  "name": "kurssipalvelin",
+  "version": "1.0.0",
+  "description": "Palvelurajapinnan toteuttava palvelin kurssille",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tommi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.19.4",
+    "sqlite3": "^4.1.0"
+  }
+}
